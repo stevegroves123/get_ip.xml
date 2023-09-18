@@ -53,7 +53,7 @@ display.show()
 while True:
     # look for file - if not found show error
     try:
-        fp = open("get_ip.xml", "r")
+        fp = open("get_ip.xml", "r") #change r for w and see if it overwrites
         data = fp.read()
         try:
             startGenState = data.index("disconnected")
