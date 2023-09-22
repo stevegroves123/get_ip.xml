@@ -10,10 +10,10 @@ My colleagues used a memory stick with a blank file titled Get_ip.xml.  They wou
 
 I have various Seeeed Xiao Sam21 and RPi2040 devices and decided these should be used due to their very small footprint and their incredible power.  I also had various cheap 128x64 OLED displays laying around the workshop.  My initial prototype was created usung a micro-board inside a mint tin, this restricted the size and gave a good deal of protection while in use.
 
-The project hinged on creating a device that appeared to be a memory stick. Reviewing the various operating systems that fit on these microcontrollers the Adafruit CircuitPython appeared to be the easiest to us and it gave me an excuse to have a play with it.
+The project hinged on creating a device that appeared to be a memory stick. Reviewing the various operating systems that fit on these microcontrollers the Adafruit CircuitPython appeared to be the easiest to use and it gave me an excuse to have a play with it.
 While testing the first iteration it became apparent I needed to increase the complexity of the code to take into account the various errors that could occur. 
 
-I'm not a coder / programmer, just an old guy who likes to play with microcontrollers and a desire to build, so please forgive the randomness of the code. If you feel you could do something with it then please feel free to copy and improve, I'm not precious about whatI create, I do it for fun.
+I'm not a coder / programmer, just an old guy who likes to play with microcontrollers and a desire to build, so please forgive the randomness of the code. If you feel you could do something with it then please feel free to copy and improve, I'm not precious about what I create, I do it for fun.
 
 The prototype worked well and did exactly what I wanted it to to; however, I started thinking about a more robust verson that was smaller and only displayed the information we needed, ip and MAC addresses.  I reduced the display to a 128x32 OLED and encased it all in an old memory stick. This works well as the memory stick was the type that slides the usb connectror in and out. This means it has a large central cut out that perfectly fits a 128x32 OLED display.  
 
