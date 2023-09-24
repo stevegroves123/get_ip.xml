@@ -48,7 +48,15 @@ def page1Data():
 display.fill(0)
 display.show()
 
-# main script
+# advert
+display.text("Pinnacle Solutions", 1, 1, 1, size = 1)
+display.text("Steve Groves 2023", 1, 16, 1, size = 1)
+display.show()
+time.sleep(2.5)
+display.fill(0)
+display.show()
+
+# main code
 while True:
     # look for file
     try:
