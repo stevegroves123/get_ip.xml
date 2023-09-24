@@ -94,7 +94,7 @@ while True:
         else:
             # if disconneced
             display.text(str(data[startGenState: startGenState+12]), 1, 1, 1, size=1)
-            display.text("disconnected", 1, 1, 1, size=1)
+            display.text("from the network", 1, 16, 1, size=1)
             display.show()
             time.sleep(20)
             fp.close()
